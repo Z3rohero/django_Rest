@@ -7,6 +7,7 @@ migra tu esquema de bases de datos
 makemigrate
 despuues
 migrate
-despues de crea tu seralizer
+despues de crea tu seralizer y las url , tambien hacer un include de tus urls a settings
 
-y las url
+2. agragar slash a la dirrecion final
+
