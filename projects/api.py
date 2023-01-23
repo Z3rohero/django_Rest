@@ -5,6 +5,6 @@ from .serializers import ProjectSerializer
 class ProjectViewSet (viewsets.ModelViewSet):
     queryset= Project.objects.all()
     #para cualquier servidor pueder ver mi servido
-    permission_classes =[permissions.AllowAny()]
+    permission_classes =[permissions.AllowAny]
     serializer_class = ProjectSerializer
     
