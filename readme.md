@@ -1,1 +1,1 @@
-Es una rest api realizada por framework de Django
+Es una rest api realizada por framework  rest_django 
