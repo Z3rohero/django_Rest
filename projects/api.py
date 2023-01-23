@@ -2,7 +2,9 @@ from .models import Project
 from rest_framework  import  viewsets, permissions
 from .serializers import ProjectSerializer
 
-class ProjectSerializer(viewsets.ModelViewSet):
+class ProjectViewSet (viewsets.ModelViewSet):
     queryset= Project.objects.all()
     #para cualquier servidor pueder ver mi servido
     permission_classes =[permissions.AllowAny()]
+    serializer_class = ProjectSerializer
+    
